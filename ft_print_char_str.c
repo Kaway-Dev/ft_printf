@@ -6,14 +6,14 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/09 15:36:05 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/07/09 16:37:19 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/07/09 16:39:21 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_putchar(char c)
 {
 	write(1, &c, 1);
-	return (1);	
+	return (1);
 }
 
 int	ft_putstr(char *str)
