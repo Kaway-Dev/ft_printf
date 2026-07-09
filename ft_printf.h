@@ -6,8 +6,13 @@
 /*   By: phkaway- <phkaway-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/09 15:19:44 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/07/09 15:19:48 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/07/09 15:47:26 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_PRINTF_H
+#define FT_PRINTF_H
+#include <unistd.h>
+#include <stdlib.h>
 
+#endif
