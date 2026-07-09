@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/09 15:36:05 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/07/09 16:32:58 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/07/09 16:37:19 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_putstr(char *str)
 {
 	int	i;
 
-	if (str[i] == NULL)
+	if (str == NULL)
 		return (ft_putstr("(null)"));
 	i = 0;
 	while (str[i] != '\0')
