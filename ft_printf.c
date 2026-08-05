@@ -6,7 +6,7 @@
 /*   By: philippe <philippe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/09 15:20:28 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/08/05 11:33:40 by philippe         ###   ########.fr       */
+/*   Updated: 2026/08/05 12:12:28 by philippe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,8 @@ static int  ft_parser(char specifier, va_list *args)
         return (ft_puthex(va_arg(*args, unsigned int), "0123456789abcdef"));
     if (specifier == 'X')
         return (ft_puthex(va_arg(*args, unsigned int), "0123456789ABCDEF"));
+    if (specifier == 'p')
+        return (ft_putptr(va_arg(*args, void *)));
     return (0);
 }
 
