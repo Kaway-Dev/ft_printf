@@ -3,15 +3,10 @@
 
 int main(void)
 {
-    int ret1;
-    int ret2;
+    int ret;
 
-
-    ret1 = ft_printf("Ola mundo");
-    ret2 = printf("Ola mundo");
-
-    printf("ft_printf retornou: %d\n", ret1);
-    printf("printf retornou: %d\n", ret2);
+ret = ft_printf("Unsigned: %u\n", 4294967295u);
+printf("Retorno: %d\n", ret);
     return (0);
 }
 
