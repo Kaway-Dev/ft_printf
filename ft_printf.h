@@ -6,7 +6,7 @@
 /*   By: philippe <philippe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/09 15:19:44 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/08/05 11:50:55 by philippe         ###   ########.fr       */
+/*   Updated: 2026/08/05 12:15:53 by philippe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ int ft_putnbr(int n);
 int	ft_put_unsigned(unsigned int n);
 int	ft_puthex(unsigned int n, char *base);
 int			ft_putptr(void *ptr);
-static int	ft_puthex_ulong(unsigned long n);
 
 
 #endif
