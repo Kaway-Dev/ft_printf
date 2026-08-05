@@ -6,7 +6,7 @@
 /*   By: philippe <philippe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/09 15:36:20 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/08/05 12:01:40 by philippe         ###   ########.fr       */
+/*   Updated: 2026/08/05 12:19:31 by philippe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,14 @@ static int	ft_puthex_ulong(unsigned long n)
 
 int			ft_putptr(void *ptr)
 {
-    
+    int count;
+
+    count = 0;
+    if (ptr == NULL)
+        return (ft_putstr("(nil)"));
+    count += ft_putstr("0x");
+    count += ft_puthex_ulong((unsigned long)ptr);
+    return(count);
 }
 
 
