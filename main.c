@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include "ft_printf.h"
 
-int main(void)
+int	main(void)
 {
-    int ret;
+printf("Original: [%s]\n", "");
+ft_printf("Seu:      [%s]\n", "");
 
-ret = ft_printf("Unsigned: %u\n", 4294967295u);
-printf("Retorno: %d\n", ret);
-    return (0);
+printf("Original: []\n");
+ft_printf("Seu:      []\n");
 }
-
