@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "ft_printf.h"
 
 int	main(void)
 {
-printf("Original: [%s]\n", "");
-ft_printf("Seu:      [%s]\n", "");
-
-printf("Original: []\n");
-ft_printf("Seu:      []\n");
+	ft_printf("Character: %c\n", 'A');
+	ft_printf("String: %s\n", "Hello");
+	ft_printf("Number: %d\n", -42);
+	ft_printf("Hexadecimal: %x\n", 255);
+	return (0);
 }
